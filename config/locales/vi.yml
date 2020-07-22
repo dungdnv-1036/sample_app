@@ -9,6 +9,10 @@ vi:
       link_title_about_page: "About"
       link_title_rails_page: "News"
     header:
+      users: "Nguoi Dung"
+      account: "Tai khoan"
+      profile: "Thong tin tai khoan"
+      setting: "Cai dat"
       logo_content: "Sample App"
       link_title_home_page: "Home"
       link_title_help_page: "Help"
@@ -42,12 +46,27 @@ vi:
       title: "Liên lạc"
   users:
     new:
+      email: "Email"
+      name: "Name"
+      password: "Password"
       signup: "Dang ky"
-      signup_page: "Day la trang dang ky cho nguoi dung moi"
+      signup_page: "Trang dang ky tai khoan"
       confirm_password: "Xac nhan lai mat khau"
-      create_account: "Tao tai khoan"
+      create_account: "ao tai khoan"
+      success_notify: "Chao mung"
+      faild_notify: "Loi.Vui long lam lai"
     show:
       invalid_user_notify: "Khong the tim thay nguoi dung!"
     create:
       success_notify: "Chao mung toi Sample APP"
       faild_notify: "Tao tai khoan khong thanh cong"
+  sessions:
+    new :
+      email: "Email"
+      password: "Mat Khau"
+      signup_now : "Dang ky moi"
+      log_in : "Dang nhap"
+      user_new : "Ban chua co tai khoan ?"
+    create:
+      success_login_notify: "Dang nhap thanh cong!"
+      faild_login_notify: "password/email khong chinh xac"
