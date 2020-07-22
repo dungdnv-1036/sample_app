@@ -65,6 +65,7 @@ vi:
     create:
       success_notify: "Chao mung toi Sample APP"
       faild_notify: "Tao tai khoan khong thanh cong"
+      please_check_your_email: "Kiem tra email de kich hoat tai khoan"
     update:
       succes_update: "Cap nhat thong tin nguoi dung thanh cong"
       faild_update: "cap nhap thong tin that bai"
@@ -94,3 +95,19 @@ vi:
     create:
       success_login_notify: "Dang nhap thanh cong!"
       faild_login_notify: "password/email khong chinh xac"
+      please_check_email: "Tai khoan chua duoc kich hoat,kiem tra email de kick hoat"
+  account_activations:
+    edit:
+      acctivated_success: "Đã xác minh tài khoản"
+      invalid_activate_link: "Link xác minh không tồn tại."
+      please_check_email: "Account not activated. Check your email for the activation link."
+  mailer:
+    hi: "Hi"
+    sample_app: "Sample app"
+    welcome_mailer: "Email kich hoat tai khoan tai Sample app,vui long click vao link de kich hoat tai khoan"
+    activate: "Kich hoat"
+    pass_reset: "password reset"
+    pass_reset_path: "password reset"
+  user_mailer:
+    account_activation:
+      subject_account_activate: "Account activation"
