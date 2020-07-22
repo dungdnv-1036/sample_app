@@ -34,9 +34,6 @@
 /config/master.key
 /config/database.yml
 /test
-/app/assets/stylesheets/users.scss
-/app/helpers/users_helper.rb
-/app/views/users/new.html.erb
 /db/migrate/20200731020704_create_users.rb
 /public/packs
 /public/packs-test
