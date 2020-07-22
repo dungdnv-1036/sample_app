@@ -45,14 +45,19 @@ vi:
     contact:
       title: "Liên lạc"
   users:
+    please_login: "Hay Dang Nhap"
+    delete_user: "Xoa"
+    confirm_delete_user: "xac nhan xoa"
+    please_login: "Hay dang nhap"
     new:
+      create_my_account: "Create new account"
       email: "Email"
       name: "Name"
       password: "Password"
       signup: "Dang ky"
       signup_page: "Trang dang ky tai khoan"
       confirm_password: "Xac nhan lai mat khau"
-      create_account: "ao tai khoan"
+      create_account: "tao tai khoan"
       success_notify: "Chao mung"
       faild_notify: "Loi.Vui long lam lai"
     show:
@@ -60,6 +65,24 @@ vi:
     create:
       success_notify: "Chao mung toi Sample APP"
       faild_notify: "Tao tai khoan khong thanh cong"
+    update:
+      succes_update: "Cap nhat thong tin nguoi dung thanh cong"
+      faild_update: "cap nhap thong tin that bai"
+    destroy:
+      user_deleted: "Da xoa nguoi dung"
+      delete_user_faild: "khong the xoa nguoi dung"
+    edit:
+      change: "thay doi"
+      update_your_profile: "cap nhap thong tin ca nhan cua ban"
+      edit_user: "chinh sua thong tin nguoi dung"
+      save_user: "luu thong tin nguoi dung"
+    form:
+      email: "Email"
+      password: "Mat khau"
+      name: "Ten"
+      password_confirmation: "xac nhan mat khau"
+    index:
+      all_users: "Tat ca nguoi dung"
   sessions:
     new :
       email: "Email"

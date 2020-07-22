@@ -7,6 +7,10 @@ link:
   footer:
     link_to_railstutorial: "https://www.railstutorial.org/"
     link_to_michaelhartl: "https://www.michaelhartl.com/"
+  edit:
+    gravatar_link: "http://gravatar.com/emails"
+  index:
+    gravatar_size: 50
 validate:
   user:
     max_length_name: 50
@@ -15,5 +19,7 @@ validate:
     VALID_EMAIL_REGEX: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 images:
   avatar_size: 80
+paginate:
+  items_per_page: 10
 form:
   checkbox: "1"

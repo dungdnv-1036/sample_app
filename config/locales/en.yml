@@ -45,7 +45,11 @@ en:
     contact:
       title: "Contact us"
   users:
+    delete_user: "delete"
+    confirm_delete_user: "are you sure?"
+    please_login: "please login"
     new:
+      create_my_account: "Create new account"
       email: "Email"
       name: "Name"
       password: "Password"
@@ -60,6 +64,24 @@ en:
     create:
       success_notify: "Welcome to Sample App!"
       faild_notify: "Create account failed. Please try again!"
+    update:
+      succes_update: "Profile Updated"
+      faild_update: "faild update"
+    destroy:
+      user_deleted: "User deleted"
+      delete_user_faild: "delete faild"
+    edit:
+      change: "change"
+      update_your_profile: "Update your profile"
+      edit_user: "Edit user"
+      save_user: "Save user"
+    form:
+      email: "Email"
+      password: "Password"
+      name: "Name"
+      password_confirmation: "password confirmation"
+    index:
+      all_users: "Tat ca nguoi dung"
   sessions:
     new:
       email: "Email"
