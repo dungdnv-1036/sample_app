@@ -2,6 +2,23 @@ vi:
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
+    footer:
+      content_1: "The Ruby on Rails Tutorial"
+      link_title_michael_hartl: "Michael Hartl"
+      link_title_contact_page: "Contact"
+      link_title_about_page: "About"
+      link_title_rails_page: "News"
+    header:
+      logo_content: "Sample App"
+      link_title_home_page: "Home"
+      link_title_help_page: "Help"
+      link_title_log_in_page: "Log in"
+      profile_btn: "Profile"
+      setting_btn: "Settings"
+      log_out_btn: "Log out"
+      log_in_btn: "Log in"
+      account: "Account"
+      users: "Users"
   static_pages:
     home:
       title: "Trang chủ"
@@ -11,6 +28,7 @@ vi:
       link_title_1: "Ruby on Rails Tutorial"
       link_title_2: "Đăng ký!"
       link_title_3: "Kitten!!"
+      link_rail: "http://www.railstutorial.org/"
     help:
       title: "Help"
       content_1: "Bạn có thể tìm trợ giúp ở the Ruby on Rails Tutorial tại "
@@ -22,3 +40,7 @@ vi:
       title: "Về chúng tôi"
     contact:
       title: "Liên lạc"
+  users:
+    new:
+      content_1: "Dang ky"
+      content_2: "Day la trang dang ky cho nguoi dung moi"
