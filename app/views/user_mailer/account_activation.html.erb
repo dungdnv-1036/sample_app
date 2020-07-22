@@ -6,7 +6,7 @@
   <%= @user.name %>
 </p>
 <p>
-  <%= t ".mailer.welcome_mailer" %>
+  <%= t ".mailer.welcome_mail" %>
 </p>
 <%= link_to t(".mailer.activate"),
   edit_account_activation_url(id: @user.activation_token, email: @user.email) %>

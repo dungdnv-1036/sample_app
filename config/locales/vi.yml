@@ -92,6 +92,7 @@ vi:
       log_in : "Dang nhap"
       user_new : "Ban chua co tai khoan ?"
       remember_me: "Duy tri dang nhap"
+      forgot_password: "quen mat khau?"
     create:
       success_login_notify: "Dang nhap thanh cong!"
       faild_login_notify: "password/email khong chinh xac"
@@ -104,10 +105,31 @@ vi:
   mailer:
     hi: "Hi"
     sample_app: "Sample app"
-    welcome_mailer: "Email kich hoat tai khoan tai Sample app,vui long click vao link de kich hoat tai khoan"
-    activate: "Kich hoat"
-    pass_reset: "password reset"
-    pass_reset_path: "password reset"
+    welcome_mail: "Welcome to the Sample App"
+    activate: "Activate"
+    reset_password: "Đặt lại mật khẩu"
+    to_reset_password: "Click vào link dưới đây để đặt lại mật khẩu"
+    notify_expire_time: "Link này sẽ tự động hết hạn trong 2 giờ."
+    notify_ignore_mail: "Nếu bạn không phải là người yêu cầu đặt lại tài khoản thì hãy bỏ qua mail này."
   user_mailer:
     account_activation:
       subject_account_activate: "Account activation"
+    password_reset:
+      reset_pass: "Thay doi mat khau"
+  password_resets:
+    info_send_email: "Đã gửi email đến email của bạn."
+    email_not_found: "Địa chỉ email không đúng."
+    reset_success: "Đã đặt lại mật khẩu."
+    reset_faild: "Không thể đặt lại mật khẩu."
+    password_cannot_empty: "không thể bỏ trống"
+    expired_reset_pass: "Đã hết hạn đặt lại mật khẩu."
+    can_not_find_user: "Không thể tìm được tài khoản."
+    new:
+      forgot_pass: "Quên mật khẩu"
+      submit_btn: "Submit"
+      email: "Nhap email"
+    edit:
+      title: "Đặt lại mật khẩu"
+      submit_btn: "Cập nhật mật khẩu"
+      password: "Mat khau"
+      password_confirmation: "Nhap lai mat khau"
