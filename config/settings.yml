@@ -1,0 +1,9 @@
+link:
+  home:
+    link_1: "https://www.railstutorial.org/"
+  help:
+    link_1: "https://www.railstutorial.org/help"
+    link_2: "https://www.railstutorial.org/book"
+  footer:
+    link_to_railstutorial: "https://www.railstutorial.org/"
+    link_to_michaelhartl: "https://www.michaelhartl.com/"
