@@ -22,19 +22,19 @@ vi:
   static_pages:
     home:
       title: "Trang chủ"
-      content_1: "Đây là trang chủ của "
-      content_2: "sample application."
-      content_3: "Chào mừng đến với Sample App"
+      home_page: "Đây là trang chủ của "
+      sample_app: "sample application."
+      welcome: "Chào mừng đến với Sample App"
       link_title_1: "Ruby on Rails Tutorial"
       link_title_2: "Đăng ký!"
       link_title_3: "Kitten!!"
       link_rail: "http://www.railstutorial.org/"
     help:
       title: "Help"
-      content_1: "Bạn có thể tìm trợ giúp ở the Ruby on Rails Tutorial tại "
-      content_2: "Để hiểu thêm về trang web, truy cập "
-      content_3: "Ruby on Rails Tutorial"
-      content_4: "sách."
+      link_title_tutorial: "Bạn có thể tìm trợ giúp ở the Ruby on Rails Tutorial tại "
+      link_about: "Để hiểu thêm về trang web, truy cập "
+      link_title_rails: "Ruby on Rails Tutorial"
+      book: "sách."
       link_title_1: "Rails Tutorial Help page"
     about:
       title: "Về chúng tôi"
@@ -42,5 +42,12 @@ vi:
       title: "Liên lạc"
   users:
     new:
-      content_1: "Dang ky"
-      content_2: "Day la trang dang ky cho nguoi dung moi"
+      signup: "Dang ky"
+      signup_page: "Day la trang dang ky cho nguoi dung moi"
+      confirm_password: "Xac nhan lai mat khau"
+      create_account: "Tao tai khoan"
+    show:
+      invalid_user_notify: "Khong the tim thay nguoi dung!"
+    create:
+      success_notify: "Chao mung toi Sample APP"
+      faild_notify: "Tao tai khoan khong thanh cong"

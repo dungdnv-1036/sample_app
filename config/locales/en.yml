@@ -22,19 +22,19 @@ en:
   static_pages:
     home:
       title: "Home"
-      content_1: "This is the home page for the"
-      content_2: "sample application."
-      content_3: "Welcome to the Sample App"
+      home_page: "This is the home page for the"
+      sample_app: "sample application."
+      welcome: "Welcome to the Sample App"
       link_title_1: "Ruby on Rails Tutorial"
       link_title_2: "Sign up now!"
       link_title_3: "Kitten!!"
       link_rail: "http://www.railstutorial.org/"
     help:
       title: "Help"
-      content_1: "Get help on the Ruby on Rails Tutorial at the"
-      content_2: "To get help on this sample app, see the"
-      content_3: "Ruby on Rails Tutorial"
-      content_4: "book."
+      link_title_tutorial: "Get help on the Ruby on Rails Tutorial at the"
+      link_about: "To get help on this sample app, see the"
+      link_title_rails: "Ruby on Rails Tutorial"
+      book: "book."
       link_title_1: "Rails Tutorial Help page"
     about:
       title: "About us"
@@ -42,5 +42,14 @@ en:
       title: "Contact us"
   users:
     new:
-      content_1: "Sign up"
-      content_2: "This will be a signup page for new users."
+      signup: "Sign up"
+      signup_page: "This will be a signup page for new users."
+      confirm_password: "Confirmation"
+      create_account: "Create my account"
+      success_notify: "Welcome to Sample App!"
+      faild_notify: "Create account failed. Please try again!"
+    show:
+      invalid_user_notify: "Can not find user!"
+    create:
+      success_notify: "Welcome to Sample App!"
+      faild_notify: "Create account failed. Please try again!"

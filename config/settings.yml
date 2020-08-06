@@ -13,3 +13,5 @@ validate:
     max_length_email: 255
     min_length_password: 6
     VALID_EMAIL_REGEX: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+images:
+  avatar_size: 80
