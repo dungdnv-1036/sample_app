@@ -9,6 +9,10 @@ en:
       link_title_about_page: "About"
       link_title_rails_page: "News"
     header:
+      users: "Users"
+      profile: "Profile"
+      setting: "Setting"
+      account: "Account"
       logo_content: "Sample App"
       link_title_home_page: "Home"
       link_title_help_page: "Help"
@@ -42,6 +46,9 @@ en:
       title: "Contact us"
   users:
     new:
+      email: "Email"
+      name: "Name"
+      password: "Password"
       signup: "Sign up"
       signup_page: "This will be a signup page for new users."
       confirm_password: "Confirmation"
@@ -53,3 +60,13 @@ en:
     create:
       success_notify: "Welcome to Sample App!"
       faild_notify: "Create account failed. Please try again!"
+  sessions:
+    new:
+      email: "Email"
+      password: "Password"
+      signup_now : "Sign up now"
+      log_in : "Log in"
+      user_new : "New user ?"
+    create:
+      success_login_notify: "Logged in successfull!"
+      faild_login_notify: "Invalid password/email"
