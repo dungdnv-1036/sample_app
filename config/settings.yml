@@ -15,3 +15,5 @@ validate:
     VALID_EMAIL_REGEX: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 images:
   avatar_size: 80
+form:
+  checkbox: "1"

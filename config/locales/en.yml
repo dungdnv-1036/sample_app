@@ -67,6 +67,7 @@ en:
       signup_now : "Sign up now"
       log_in : "Log in"
       user_new : "New user ?"
+      remember_me: "Remember me on this computer"
     create:
       success_login_notify: "Logged in successfull!"
       faild_login_notify: "Invalid password/email"
