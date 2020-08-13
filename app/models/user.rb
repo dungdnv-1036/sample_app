@@ -8,6 +8,7 @@ class User < ApplicationRecord
     length: {maximum: Settings.validate.user.max_length_email},
     format: {with: Settings.validate.user.VALID_EMAIL_REGEX},
     uniqueness: true
+  validates :password, presence: true, length: {minimum: Settings.validate.user.min_length_password}, allow_nil: true
 
   has_secure_password
 
@@ -30,7 +31,7 @@ class User < ApplicationRecord
 
   def remember
     self.remember_token = User.new_token
-    update :remember_digest, User.digest remember_token
+    update remember_digest: User.digest(remember_token)
   end
 
   def authenticated? remember_token
@@ -38,7 +39,7 @@ class User < ApplicationRecord
   end
 
   def forget
-    update :remember_digest, nil
+    update remember_digest: nil
   end
 
   private
