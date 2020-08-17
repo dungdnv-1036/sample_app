@@ -64,6 +64,7 @@ en:
     create:
       success_notify: "Welcome to Sample App!"
       faild_notify: "Create account failed. Please try again!"
+      please_check_your_email: "Please check your email to activate your account."
     update:
       succes_update: "Profile Updated"
       faild_update: "faild update"
@@ -93,3 +94,18 @@ en:
     create:
       success_login_notify: "Logged in successfull!"
       faild_login_notify: "Invalid password/email"
+      please_check_email: "Account not activated. Check your email for the activation link."
+  account_activations:
+    edit:
+      acctivated_success: "acctivated success"
+      invalid_activate_link: "invalid activate link"
+  mailer:
+    hi: "Hi"
+    sample_app: "Sample app"
+    welcome_mailer: "Verify your account"
+    activate: "Activate"
+    pass_reset: "password reset"
+    pass_reset_path: "password reset"
+  user_mailer:
+    account_activation:
+      subject_account_activate: "Account activation"

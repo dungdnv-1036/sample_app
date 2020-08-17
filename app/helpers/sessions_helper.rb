@@ -14,7 +14,7 @@ module SessionsHelper
       @current_user ||= User.find_by id: user_id
     elsif user_id = cookies.signed[:user_id]
       user = User.find_by id: user_id
-      if user&.authenticated?(cookies[:remember_token])
+      if user&.authenticated?(:remember, cookies[:remember_token])
         log_in user
         @current_user = user
       end
@@ -38,7 +38,11 @@ module SessionsHelper
   end
 
   def is_remember_user? user
-    params[:session][:remember_me] == Settings.form.checkbox ? remember(user) : forget(user)
+    if params[:session][:remember_me] == Settings.form.checkbox
+      remember user
+    else
+      forget user
+    end
   end
 
   def current_user? user
