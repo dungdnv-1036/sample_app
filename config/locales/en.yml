@@ -91,6 +91,7 @@ en:
       log_in : "Log in"
       user_new : "New user ?"
       remember_me: "Remember me on this computer"
+      forgot_password: "forgot password"
     create:
       success_login_notify: "Logged in successfull!"
       faild_login_notify: "Invalid password/email"
@@ -102,10 +103,31 @@ en:
   mailer:
     hi: "Hi"
     sample_app: "Sample app"
-    welcome_mailer: "Verify your account"
+    welcome_mail: "Welcome to the Sample App! Click on the link below to activate your account:"
     activate: "Activate"
-    pass_reset: "password reset"
-    pass_reset_path: "password reset"
+    reset_password: "Password reset"
+    to_reset_password: "To reset your password click the link below:"
+    notify_expire_time: "This link will expire in two hours."
+    notify_ignore_mail: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
   user_mailer:
     account_activation:
       subject_account_activate: "Account activation"
+    password_reset:
+      reset_pass: "Password reset"
+  password_resets:
+    info_send_email: "Email sent with password reset instructions"
+    email_not_found: "Email address not found"
+    reset_success: "Password has been reset."
+    reset_faild: "can not reset password"
+    cannot_empty: "can't be empty"
+    expired_reset_pass: "Password reset has expired."
+    can_not_find_user: "Can not find user"
+    new:
+      forgot_pass: "Forgot password"
+      submit_btn: "Submit"
+      email: "Enter email"
+    edit:
+      title: "Reset password"
+      submit_btn: "Update password"
+      password: "Password"
+      password_confirmation: "Password Confirmation"
