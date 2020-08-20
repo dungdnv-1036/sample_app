@@ -33,6 +33,7 @@ vi:
       link_title_2: "Đăng ký!"
       link_title_3: "Kitten!!"
       link_rail: "http://www.railstutorial.org/"
+      microposts_feed: "Micropost Feed"
     help:
       title: "Help"
       link_title_tutorial: "Bạn có thể tìm trợ giúp ở the Ruby on Rails Tutorial tại "
@@ -127,9 +128,31 @@ vi:
     new:
       forgot_pass: "Quên mật khẩu"
       submit_btn: "Submit"
-      email: "Nhap email"
     edit:
       title: "Đặt lại mật khẩu"
       submit_btn: "Cập nhật mật khẩu"
-      password: "Mat khau"
-      password_confirmation: "Nhap lai mat khau"
+  microposts:
+    can_not_find_micropot: "khong co micropots nao"
+    create_success: "Thành công!"
+    create_faild: "Thất bại!"
+    delete_success: "Micropost deleted"
+    delete_faild: "Khong the xoa"
+    image_type_validate: "Định dạng ảnh cần thỏa mãn"
+    image_size_validate: "Kích thước ảnh phải nhỏ hơn 5MB"
+    image_size_notify_js: "Hình ảnh quá lớn. Vui lòng chọn lại (nhỏ hơn 5MB)."
+    micropost:
+      posted: "Đăng "
+      ago: " trước."
+      delete: "Xóa"
+      confirm_delete: "Bạn có muốn xóa?"
+  application:
+    please_log_in: "Please log in."
+  shared:
+    user_info:
+      view_profile: "View my profile"
+      microposts: "%{count} microposts"
+    micropost_form:
+      input_placeholder: "Compose new micropost..."
+      post_btn: "Post"
+    error_messages:
+      error: "%{count}error"
