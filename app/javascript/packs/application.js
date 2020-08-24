@@ -10,6 +10,11 @@ require('channels')
 require('jquery')
 require('bootstrap')
 require('./micropost')
+//= require i18n
+
+//= require i18n.js
+
+//= require i18n/translations
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference

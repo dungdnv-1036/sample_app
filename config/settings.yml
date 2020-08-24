@@ -19,7 +19,7 @@ validate:
     VALID_EMAIL_REGEX: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   micropost:
     max_length: 140
-    type: /%w[image/jpeg image/gif image/png]/
+    type: /%w(image/jpeg image/gif image/png)/
 images:
   avatar_size: 80
   avatar_imicropost_size: 50
@@ -32,3 +32,4 @@ micropost:
   image_size: 5
   resize_limit: [500, 500]
   image_type: "image/jpeg,image/gif,image/png"
+  image_follow_size: 30

@@ -62,6 +62,13 @@ en:
       faild_notify: "Create account failed. Please try again!"
     show:
       invalid_user_notify: "Can not find user!"
+    follow:
+      follow: "Theo doi"
+    unfollow:
+      unfollow: "huy theo doi"
+    show_follow:
+      view_my_profile: "view my profile"
+      microposts: "Microposts:"
     create:
       success_notify: "Welcome to Sample App!"
       faild_notify: "Create account failed. Please try again!"
@@ -153,3 +160,8 @@ en:
       post_btn: "Post"
     error_messages:
       error: "%{count} error"
+    stats:
+      follower: "follower"
+      following: "following"
+  relationships:
+    can_not_find_user: "Can not find user"

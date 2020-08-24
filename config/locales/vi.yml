@@ -50,6 +50,8 @@ vi:
     delete_user: "Xoa"
     confirm_delete_user: "xac nhan xoa"
     please_login: "Hay dang nhap"
+    follower: "Người theo dõi"
+    following: "Đang theo dõi"
     new:
       create_my_account: "Create new account"
       email: "Email"
@@ -63,6 +65,14 @@ vi:
       faild_notify: "Loi.Vui long lam lai"
     show:
       invalid_user_notify: "Khong the tim thay nguoi dung!"
+    follow:
+      follow: "Theo doi"
+    unfollow:
+      unfollow: "huy theo doi"
+    show_follow:
+      view_my_profile: "xem thong tin ca nhan"
+      microposts: "Microposts:"
+      title_follow: "follow"
     create:
       success_notify: "Chao mung toi Sample APP"
       faild_notify: "Tao tai khoan khong thanh cong"
@@ -156,3 +166,8 @@ vi:
       post_btn: "Post"
     error_messages:
       error: "%{count}error"
+    stats:
+      follower: "Người theo dõi"
+      following: "Đang theo dõi"
+  relationships:
+    can_not_find_user: "Không tìm được tài khoản"
